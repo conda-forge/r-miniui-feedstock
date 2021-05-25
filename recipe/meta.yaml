@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: miniUI_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/miniUI_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/miniUI/miniUI_{{ version }}.tar.gz
@@ -40,7 +39,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=miniUI
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Provides UI widget and layout functions for writing Shiny apps that work well on small
     screens.
   license_family: GPL3
@@ -49,9 +48,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
