@@ -1,11 +1,11 @@
-About r-miniui
-==============
+About r-miniui-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-miniui-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=miniUI
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-miniui-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides UI widget and layout functions for writing Shiny apps that work well on small screens.
 
